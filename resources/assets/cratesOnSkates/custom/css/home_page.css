@@ -1,0 +1,147 @@
+body {
+    color: #4c7074 !important;
+    /* background: linear-gradient(0deg, rgba(86, 194, 220, 0.7847514005602241) 0%, rgba(191, 246, 118, 0.7287289915966386) 100%) !important; */
+}
+
+.crates_top_header {
+    /*height: 28px;*/
+    background: #76c043a8 !important;
+}
+
+.crates_top_header_contact {
+    padding: 0 !important;
+}
+
+.crates_logo {
+    height: 161px;
+    padding: 10px 0px !important;
+    /* background: #76c043; */
+    width: 165px;
+
+}
+
+.crates_logo>a>img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
+.crates_top_header_dropdown li {
+    padding: 3px 25px 7px 25px !important;
+}
+
+.crates_top_header_contact li {
+    font-size: 15px !important;
+    padding-right: 56px !important;
+    padding-top: 3px;
+    padding-left: 24px;
+}
+
+.crates_top_header_contact li h6,
+.crates_top_header_dropdown li {
+    font-size: 15px !important;
+}
+
+/* colors */
+.white_color {
+    color: #fff !important;
+}
+
+.crates_top_header_dropdown .onhover-dropdown .onhover-show-div {
+    top: 28px !important;
+    background-color: #8cca61 !important;
+    /* border: 1px solid #e9ffd9 !important; */
+    padding: 0 !important;
+}
+
+.crates_top_header_dropdown .onhover-dropdown .onhover-show-div li {
+    padding: 10px 55px !important;
+}
+
+
+/* right menu nav */
+
+.crater_right_menu_nav ul li a {
+    color: #386f7a;
+}
+
+.pixelstrap a {
+    color: #4c7074 !important;
+    font-weight: bold !important;
+}
+
+.pixelstrap a:hover,
+.pixelstrap a:active {
+    font-weight: bold !important;
+    color: #f0b54d !important;
+}
+
+
+/* home first content  */
+.home_first_content_left {
+    padding-left: 279px;
+    text-align: left;
+
+}
+
+.home-slider .slider-contain {
+    height: 46vh !important
+}
+
+.slick-slide {
+    height: 51% !important;
+}
+
+.home-slider .home {
+    height: 46vh !important
+}
+
+.collection-banner .contain-banner {
+    padding-left: 42px !important;
+    padding-right: 42px !important;
+}
+
+/* a {
+    color: white !important;
+} */
+
+
+/* footer */
+
+
+
+/* body bg */
+.page-section {
+    /* background: linear-gradient(0deg, rgba(86, 194, 220, 0.7847514005602241) 0%, rgba(191, 246, 118, 0.7287289915966386) 100%) !important; */
+}
+
+.pixelstrap li a {
+    cursor: pointer;
+}
+
+.active {
+    color: #76c043 !important;
+}
+
+
+#pointer {
+    position: absolute;
+    z-index: 1;
+}
+
+
+/* #pointer:after {}
+
+#pointer:before {
+    content: "";
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    border-radius: 50px;
+    top: 1px;
+    right: -10px;
+}
+
+#btn-1::before {
+    background: #F91B00;
+} */

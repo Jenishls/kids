@@ -1,0 +1,241 @@
+.cms_company_holder {
+    display: flex;
+    padding-right: 19px;
+}
+.cms_company_head,
+.cms_company_body {
+    display: flex;
+    padding: 25px 19px;
+}
+
+.cms_company_info {
+    display: flex;
+    padding-left: 23px;
+    min-height: 249px;
+    padding-right: 23px;
+    padding-top: 20px;
+
+    margin-bottom: 27px;
+}
+
+.cms_company_header_location {
+    display: block;
+    padding-right: 10px;
+}
+
+.cms_company_logo {
+    width: 116px;
+}
+
+.cms_company_logo>img {
+    border-radius: 5px;
+    width: 119px;
+}
+
+.cmsCompanyInfo {
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+.company_view {
+    padding: 1.25rem;
+
+}
+
+.cms_comapnmay_desc {
+    padding-top: 12px;
+}
+
+.cmsdefaultCompanyTitle {
+    font-weight: 600;
+    margin-bottom: 0;
+    line-height: 1;
+    font-size: 16px;
+    color: #0096db;
+}
+
+.cmsdefaultCompanyTitle:hover {
+    color: rgb(48, 132, 228);
+}
+
+.cmsdefaultCompanyHeadDesc {
+    /* padding-top: 0.4rem; */
+    color: #49abd7;
+    font-weight: 500;
+    display: block;
+    font-size: 14px;
+}
+
+.cms_company_desc {
+    padding-top: 8px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cms_company_head {
+    /* background: #f3f3f3; */
+    border-bottom: 1px solid #ececec;
+}
+
+
+.cms_company_body {
+    /* background: #ebebeb; */
+    box-shadow: -2px -1px 7px -1px rgba(234, 234, 234, 0.54);
+    width: 439px;
+    border: 1px solid #f3f3f3;
+    padding: 0px;
+    height: 427px;
+}
+
+.employes_job {
+    width: 100%;
+    text-align: center;
+}
+
+.cms_company_employee {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding-top: 17px;
+
+}
+
+.no_employee {
+    font-size: 14px;
+}
+
+.company_phone_number {
+    padding-top: 10px;
+}
+
+.cmsCompanyAddTitle,
+.cmsCompanyContactTitle,
+.cmsCompanyInfoTitle {
+    color: #fff;
+    font-weight: 500;
+    display: block;
+    /* background: #93a2dd; */
+    background: #55c2f4;
+    padding: 5px 10px;
+    border-radius: 4px 4px 0px 0px;
+    font-size: 14px;
+    letter-spacing: 1px;
+
+}
+
+.cmsCompanyInfoTitle>p {
+    margin-bottom: 0;
+}
+
+.cmscompanyAddressSection,
+.cmsCompanyContactSection {
+    width: 100%;
+    box-shadow: 2px 2px 7px -1px rgba(223, 223, 223, 0.85);
+    min-height: 199px;
+
+}
+
+.cmscompanyAddressSection {
+    margin-left: 34px;
+}
+
+.contact_p {
+    margin-bottom: 0;
+    font-style: normal;
+    /* font-weight: 500; */
+    /* color: #f5f5d9; */
+    color: #7b7b7b;
+    font-weight: 500;
+}
+
+.address_p {
+    font-style: normal;
+    /* font-weight: 500; */
+    /* color: #f5f5d9; */
+    color: #7b7b7b;
+    font-weight: 500;
+}
+
+.contact_detl {
+    /* background: #f5f7ff; */
+    background: #fcfcfc;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    min-height: 199px;
+}
+
+.cmsCompanyAddTitle>i,
+.cmsCompanyContactTitle>i {
+    padding-right: 8px;
+}
+
+/* busainess hours */
+.cmsBusinessHoursHead {
+    padding: 0 23px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cms_business_table {
+    padding: 0 23px;
+}
+
+.table-fixed {
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #f0f3ff;
+
+
+}
+
+.table-fixed>tbody {
+    min-height: 93px;
+    overflow-y: auto;
+    width: 100%;
+    max-height: 220px;
+}
+
+
+.table-fixed>tbody,
+.table-fixed>tr,
+.table-fixed>td,
+.table-fixed>th {
+    display: block;
+}
+
+.table-fixed>tbody>td {
+    float: left;
+}
+
+.table-fixed>thead>tr>th {
+    float: left;
+    background-color: #ebedf2;
+    border-color: #ebedf2;
+}
+
+.table-fixed>thead>tr>th,
+.table-fixed>tbody>tr>td {
+    width: 267px;
+}
+
+.table-fixed>tbody>tr:nth-child(odd) {
+    background: #f9fafb;
+}
+
+.business_title {
+    color: #55abd3;
+}
+
+#addHoursBtn {
+
+    padding: 5px;
+}
+
+.cms_company_est_date {
+    padding-top: 30px;
+}
+
+#cmsBusinessHoursTable {
+    padding: 0px 19px;
+}

@@ -1,0 +1,450 @@
+#t_notestable {
+    position: static;
+    zoom: 1;
+    background: white;
+    box-shadow: 0px 0px 13px 0px rgba(82, 63, 105, 0.05);
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+#t_notestable>.notes_search_row {
+    padding: 20px 24px 20px 32px;
+    border-bottom: 1px solid #ebedf2;
+    min-height: 60px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+#t_notestable>.kt-datatable__table {
+    padding: 25px;
+    border-radius: 4px;
+    border: none;
+}
+
+#t_notestable .kt-datatable__table thead tr :first-child {
+    border-radius: 5px 0px 0px 5px !important;
+}
+
+#t_notestable .kt-datatable__table thead tr th span {
+    color: #575962 !important;
+}
+
+#notes_chart {
+    height: 275px;
+    margin: 10px 1px 0px 1px;
+    border-bottom: 2px solid #ececec;
+    display: flex;
+}
+
+.col-align-right {
+    text-align: right;
+}
+
+.col_header {
+    /* padding: 1.1rem 10px;
+    margin-bottom: 0.5rem; */
+}
+
+.col_header>.kt-widget1__title {
+    font-size: 1.3rem !important;
+}
+
+.m_inline {
+    display: inline-flex;
+}
+
+.todo_date_select {
+    width: 107px !important;
+    cursor: pointer;
+}
+
+.todo_date_select>option {
+    cursor: pointer;
+}
+
+.w-170 {
+    width: 170px !important;
+}
+
+.w-140 {
+    width: 140px;
+}
+
+.p_top_24 {
+    padding: 24px 0px 0px 0px;
+}
+
+.kt_widget_row_notes {
+    padding-bottom: 29px !important;
+}
+
+.p_top_24>.col_header>h3 {
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+}
+
+.p_top_24>.m_inline>.col_header>h3 {
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+}
+
+#dropdownNoteLink {
+    background: #716aca;
+    border: none;
+    color: white;
+    height: 30px;
+    width: 30px;
+    margin-right: 8px;
+}
+
+.w-400 {
+    width: 600px;
+}
+
+.noteAdvSearchDropDown {
+    background: #e8e6ff;
+    padding: 0px;
+    top: 36px !important;
+    border-radius: 4px !important;
+    transform: none !important;
+}
+
+.dateRangeTable {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    height: 32px;
+}
+
+#datePickerTable {
+    height: 32px;
+}
+
+.noteSearchCol {
+    display: inline-flex;
+}
+
+.col_width_20 {
+    max-width: 20% !important;
+}
+
+.redo_class {
+    padding-left: 23px;
+}
+
+.noteAdvSearch i {
+    font-size: 12px !important;
+}
+
+.note_search>button {
+    width: 128px !important;
+    border: none !important;
+}
+
+.input-group-prepend>button {
+    font-size: 0.92rem !important;
+}
+
+.bootstrap-select>.dropdown-toggle {
+    border-radius: 4px 4px 4px 4px !important;
+}
+
+.todo_date_select>.dropdown-menu {
+    transform: translate3d(13px, 38px, 0px) !important;
+}
+
+.note_search>.dropdown-menu {
+    min-width: 159px !important;
+}
+
+.custom-select>.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: 141px !important;
+}
+
+.kt-widget1 .kt-widget1__item .kt-widget1__info .kt-widget1__title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #646c9a !important;
+}
+
+/* add note modal */
+#add_note {
+    background: #bd3c92;
+    border: none;
+}
+
+.lbl {
+    font-weight: 500 !important;
+    font-size: 1.1rem !important;
+}
+
+.pt_lbl {
+    padding-top: 30px;
+}
+
+.sp_adjust>div>button>.filter-option {
+    padding-top: 5px !important;
+}
+
+.pt_lbl>input {
+    font-size: 0.92rem !important;
+}
+
+.note-btn-group>button>span {
+    font-weight: 600;
+    color: #4f4e4e;
+    font-size: 1rem;
+}
+
+.note-editor .note-toolbar .note-btn-group .btn i {
+    vertical-align: initial;
+    line-height: initial;
+    padding-right: 0;
+    color: #8087b2;
+    font-size: 0.85rem;
+}
+
+.add_note_member_table>tr>td {
+    padding-left: 32px;
+}
+
+.add_note_member_table>tbody>tr>td>h6>span,
+.add_note_section_table>tbody>tr>td>h6>span {
+    font-size: 1.1rem !important;
+    font-weight: 400 !important;
+}
+
+.add_note_member_table>tbody>tr>td>h6,
+.add_note_section_table>tbody>tr>td>h6 {
+    font-size: 1.1rem !important;
+    font-weight: 400 !important;
+}
+
+.files-section {
+    display: inline-flex !important;
+    width: 98%;
+}
+
+.files-section>input {
+    width: 100% !important;
+}
+
+.files-section>div {
+    display: inline-flex !important;
+}
+
+.pt_17 {
+    padding-top: 17px;
+}
+
+.change_mem_btn,
+.change_section_btn {
+    background: #8c87c9;
+    /* height: 33px; */
+    text-align: center;
+    color: white;
+    padding: 2px 11px;
+    margin-bottom: 18px;
+    margin-right: 20px;
+    cursor: pointer;
+    border: 1px solid #8c87c9;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.change_section_btn {
+    margin-bottom: 0 !important;
+}
+
+.change_mem_btn:hover,
+.change_section_btn:hover {
+    background: #6f69b4;
+}
+
+#submitNote {
+    background: #81317a;
+    color: white;
+    border: none;
+    width: 88px;
+}
+
+.addNoteFileRow,
+.uploadNoteFile,
+.removeRowFile {
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.addNoteFileRow>i,
+.removeRowFile>i {
+    padding-top: 7px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.uploadNoteFile>i {
+    padding-top: 7px;
+    /* padding-left: 6px; */
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.addNoteFileRow:hover {
+    border-color: #5867dd !important;
+    color: #ffffff !important;
+    background-color: #5867dd !important;
+    border-radius: 60px;
+}
+
+.uploadNoteFile:hover {
+    border-color: #5867dd !important;
+    color: #ffffff !important;
+    background-color: #56c7aa !important;
+    border-radius: 60px;
+}
+
+.removeRowFile:hover {
+    border-color: #5867dd !important;
+    color: #ffffff !important;
+    background-color: #ff3f3f !important;
+    border-radius: 60px;
+}
+
+.m-btn--icon.m-btn--icon-only {
+    display: inline-block;
+    position: relative;
+    padding: 0 !important;
+    width: 33px;
+    height: 33px;
+}
+
+/* .uploadNoteFile {
+    padding: 0;
+} */
+
+#changeMemberModal {
+    width: 600px;
+    display: none;
+}
+
+.note_create_modal_dialog {
+    margin-left: 320px !important;
+}
+
+.note_create_modal_content {
+    width: 1300px;
+}
+
+.note_create_body {
+    background: #eeeeee;
+    /* height:528px; */
+}
+
+.note_member_select_div,
+.note_section_select_div {
+    padding-left: 0px !important;
+}
+
+.note_member_select_div>.dropdown,
+.note_section_select_div>.dropdown {
+    width: 100% !important;
+}
+
+.note_member_select_div>.dropdown>.dropdown-menu,
+.note_section_select_div>.dropdown>.dropdown-menu {
+    left: 0 !important;
+
+}
+
+.i_f {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.files-section {
+    padding-top: 10px;
+}
+
+/* .files-section>input {
+    display: none;
+} */
+
+
+
+
+/* .dropup .nav-link.dropdown-toggle:after,
+.dropup .btn.dropdown-toggle:after {
+    font-family: "Ionicons";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+
+    content: "\f123";
+}
+
+.bootstrap-select>.dropdown-toggle:after {
+    border: 0;
+    margin-right: -2px;
+    font-size: 0.6rem;
+    display: inline-block;
+    font-family: "Ionicons";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+
+    content: "\f123";
+}
+
+.nav-link.dropdown-toggle:after,
+.btn.dropdown-toggle:after {
+    text-align: center;
+    display: inline;
+    border: 0;
+    font-size: 0.6rem;
+    line-height: 0;
+    vertical-align: middle;
+    position: relative;
+    margin-left: 0.5rem;
+    opacity: 0.7;
+    font-family: "Ionicons";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    content: "\f123";
+}
+
+.dropup .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "\f123";
+    border-top: 0;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0.3em solid;
+    border-left: 0.3em solid transparent;
+}
+
+.bootstrap-select>.dropdown-toggle:after {
+    margin-top: -1px;
+} */

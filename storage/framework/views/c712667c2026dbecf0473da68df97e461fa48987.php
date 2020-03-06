@@ -1,0 +1,1 @@
+<body style="background: #f9f9fc;" class="kt-page--fluid kt-quick-panel--right kt-demo-panel--right kt-offcanvas-panel--right kt-header--fixed kt-header-mobile--fixed kt-subheader--enabled kt-subheader--transparent kt-page--loading"><?php /**PATH D:\support\resources\views/supportNew/pages/dashboard/inc/body.blade.php ENDPATH**/ ?>

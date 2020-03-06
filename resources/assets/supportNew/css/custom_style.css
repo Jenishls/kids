@@ -1,0 +1,209 @@
+* {
+    font-family: 'proxima_nova_ltsemibold', Georgia, sans-serif;
+    font-weight: 400;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.75em;
+    letter-spacing: 0.01em;
+}
+
+.status-btn {
+    margin-top: 10px;
+    padding: 5px;
+    color: white;
+    font-size: 13px;
+    font-family: 'Proxima Nova';
+}
+
+.order-top-btn {
+    width: 100% !important;
+    margin-bottom: 5px;
+    background-color: #b12775 !important;
+}
+
+.btn-pinkish {
+    background-color: #b12775;
+    border-color: #c51c7c;
+}
+
+.btn-pinkish:hover,
+.btn-pinkish:focus,
+.btn-pinkish:active {
+    border-color: #c51c7c;
+    color: white;
+}
+
+.btn-black:hover {
+    color: white;
+    background-color: #efa000;
+    transition: all 0.3s;
+}
+
+.btn-dashboard {
+    background-color: #b12775;
+    border-color: #c51c7c;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: 'Proxima Nova';
+}
+
+.btn-dashboard:hover {
+    background-color: #efa000;
+    border-color: #efb53f;
+    color: white;
+    transition: all 0.3s;
+}
+
+.mt-5 {
+    margin-top: 5px !important;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-40 {
+    margin-top: 40px !important;
+}
+
+.mt-100 {
+    margin-top: 40px;
+}
+
+.mb-10 {
+    margin-bottom: 10px !important;
+}
+
+.mb-20 {
+    margin-bottom: 20px !important;
+}
+
+.ml-5 {
+    margin-left: 5px !important;
+}
+
+.ml-10 {
+    margin-left: 10px !important;
+}
+
+.ml-20 {
+    margin-left: 20px !important;
+}
+
+.ml-30 {
+    margin-left: 30px !important;
+}
+
+.ml-40 {
+    margin-left: 40px !important;
+}
+
+.ml-50 {
+    margin-left: 50px !important;
+}
+
+.ml-60 {
+    margin-left: 60px !important;
+}
+
+.ml-70 {
+    margin-left: 70px !important;
+}
+
+.px-10 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.no-left-pad {
+    padding-left: 0 !important;
+}
+
+.no-right-pad {
+    padding-right: 0 !important;
+}
+
+
+/*Cart*/
+
+.cart-title {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.mt--35 {
+    margin-top: 35px;
+}
+
+.ml--15 {
+    margin-left: 15px !important;
+}
+
+.ml--20 {
+    margin-left: 20px !important;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.px-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.width-100 {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.d-inline {
+    display: inline !important;
+}
+
+.clear {
+    clear: both;
+}
+
+.mx-0 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.width-100 {
+    width: 100% !important;
+}
+
+.mt-50 {
+    margin-top: 50px !important;
+}
+
+.mb-50 {
+    margin-bottom: 50px !important;
+}

@@ -1,0 +1,82 @@
+#add_membership {
+    background: #bd3c92;
+    color: white;
+    outline: none !important;
+    border: none !important;
+    margin-top: -6px;
+}
+
+.add_membership_modal_data {
+    padding-top: 34px;
+    padding-bottom: 11px;
+    padding-left: 20px;
+
+}
+
+#btnRemoveRow {
+    padding-top: 8px;
+    padding-bottom: 11px;
+    padding-left: 10px;
+    cursor: pointer;
+
+}
+
+#btnAddRow>i,
+#btnRemoveRow>i {
+    font-size: 24px;
+    color: #d13db3;
+    cursor: pointer;
+}
+
+#btnRemoveRow>i {
+    color: #f02424 !important;
+}
+
+.membership_modal_body {
+    padding-right: 0px !important;
+    padding-left: 31px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+#t_membershipstable .kt-datatable__table thead tr th {
+    /* color: #595d6e; */
+    background-color: #ebedf2;
+    border-color: #ebedf2;
+}
+
+#t_membershipstable .kt-datatable__table {
+    padding: 25px;
+    border-radius: 4px;
+    border: none;
+}
+
+.id_card_look_up {
+    display: flex;
+    align-items: center;
+}
+
+.f-s-16 {
+    font-size: 16px;
+}
+
+.id_cardlook_up_div>input {
+    width: 17px;
+    height: 17px;
+}
+
+.id_cardlook_up_div>input {
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+/* border */
+.head_bottom_border {
+    font-size: 16px;
+    font-weight: 450;
+    border-bottom: 2px solid #2cb2f0;
+}
+
+.select_role>button {
+    width: 223px !important;
+}

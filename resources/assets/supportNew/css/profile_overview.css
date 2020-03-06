@@ -1,0 +1,385 @@
+.task_head ul.task_head_ul li.task_head_li_active a {
+    color: #716aca !important;
+    border-bottom: 2px solid #716aca;
+    font-size: 15px;
+    font-weight: 500;
+    color: #716aca;
+}
+
+.nav-link.dropdown-toggle:after,
+.btn.dropdown-toggle:after {
+    display: none;
+}
+
+.profile_overview_content {
+    min-height: 550px;
+}
+
+#datatable_container,
+.profile-container {
+    margin-left: 36px !important;
+    margin-right: 26px !important;
+}
+
+.kt-section .kt-section__title {
+    color: #706e70;
+}
+
+.profile_view_row {
+    padding: 10px;
+}
+
+/* profile tab */
+nav {
+    border: 1px solid #8b878b8f;
+    border-radius: 5px 5px 0px 0px;
+    min-width: 28%;
+    max-width: 58%;
+    background: #f2f2f2;
+}
+
+nav>.nav.nav-tabs {
+
+    border: none;
+    /* color: #fff;
+    background: #272e38; */
+    border-radius: 0;
+
+}
+
+nav>div a.nav-item.nav-link {
+    color: black !important;
+    font-size: 14px !important;
+}
+
+nav>div a.nav-item.nav-link,
+nav>div a.nav-item.nav-link.active {
+    border: none;
+    padding: 8px 25px;
+    /* color: #fff; */
+    /* background: #272e38; */
+    border-radius: 5px 0px 0px 0px;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+nav>div a.nav-item.nav-link.active {
+    color: #716aca;
+    border-bottom: 2px solid #740a6f;
+
+
+}
+
+nav>div a.nav-item.nav-link.active:after {
+    /* content: "";
+    position: relative;
+    bottom: -60px;
+    left: -5%;
+    border: 15px solid transparent;
+    border-top-color: #e74c3c; */
+}
+
+.tab-content {
+    background: #ffffff;
+    line-height: 25px;
+    /* border: 1px solid #ddd;
+    border-top: 5px solid #e74c3c;
+    border-bottom: 5px solid #e74c3c;
+    padding: 30px 25px; */
+}
+
+nav>div a.nav-item.nav-link:hover,
+nav>div a.nav-item.nav-link:focus {
+    /* border: none; */
+    background: #dbe0f3;
+    color: #494949;
+    /* border-radius: 5px 0px 0px 5px; */
+    transition: background 0.20s linear;
+    border-bottom: 2px solid #740a6f;
+}
+
+.nav_tab {
+    margin: 0px 0 1px 0 !important;
+}
+
+nav>div a.nav-item.nav-link.active:nth-last-child(2),
+nav>div a.nav-item.nav-link:nth-last-child(2):hover {
+    border-radius: 0 !important;
+}
+
+nav>div a.nav-item.nav-link.active:last-child,
+nav>div a.nav-item.nav-link:last-child:hover {
+    border-radius: 0px 5px 0px 0px !important;
+}
+
+.nav_tab>a {
+    min-width: 200px;
+    max-width: 236px;
+}
+
+.profile_tab_pane {
+    padding: 25px;
+}
+
+.profile_tab_content {
+    border: 1px solid #c8c7c8;
+    border-radius: 0px 5px 5px 5px;
+    min-height: 509px;
+}
+
+/* personnal info row */
+.personal_info_col {
+    border: 1px solid black;
+    min-height: 509px;
+    margin-right: 135px;
+    margin-left: 17px;
+}
+
+.address_info_col {
+    border: 1px solid black;
+    min-height: 509px;
+}
+
+/* personnal info */
+.personal_info_div {
+    webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    background-color: #ffffff;
+    margin-bottom: 0px;
+    border-radius: 4px;
+}
+
+.personal_info_kt_portlet__body {
+    min-height: 440px;
+}
+
+.personal_info_portlet__head {
+    min-height: 19px !important;
+    padding-bottom: 13px !important;
+    padding-top: 13px !important;
+
+}
+
+.personal_info_portlet__head .kt-portlet__head-label h3 {
+    padding-bottom: 10px !important;
+}
+
+/* edit icon */
+.edit_personal_detail,
+.edit_personal_address_detail {
+    height: 3rem;
+    width: 3rem;
+    padding-left: 12px;
+    padding-top: 8px;
+    margin-top: 3px;
+}
+
+.edit_bg {
+    font-size: 16px;
+
+}
+
+.edit_personal_detail:hover,
+.edit_personal_address_detail:hover {
+    background-color: #716aca;
+    border-color: #716aca;
+    border-radius: 50%;
+}
+
+.edit_personal_detail:hover .edit_bg,
+.edit_personal_address_detail:hover .edit_bg {
+
+    font-size: 15px;
+    cursor: pointer;
+    /* padding-top: 10px; */
+    /* padding: 9px; */
+    color: white;
+}
+
+
+.personal_info_title,
+.person_address_title {
+    padding-top: 10px !important;
+}
+
+/* disable mask */
+.module--disabled-mask {
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    /* opacity: 0.5; */
+    background: #fff;
+    pointer-events: none;
+}
+
+.headerDivider {
+    border-left: 1px solid #eaecf2;
+    border-right: 1px solid #c5c5c5;
+    height: 396px;
+    position: absolute;
+    right: 675px;
+    top: 105px;
+}
+
+
+
+/* new personal form */
+.personal_details_form,
+.address_div,
+.county_div {
+    width: 67%;
+    margin: auto;
+}
+
+.personal_head_section h3,
+.address_head_section h3,
+.country_head_section h3 {
+    font-size: 1.25rem !important;
+}
+
+.label_padding {
+    padding-top: 20px;
+}
+
+.form_label_title {
+    font-weight: 600;
+}
+
+.m-form__seperator.m-form__seperator--dashed {
+    border-top: 1px dashed #ebedf2;
+}
+
+.m-form .m-form__seperator.m-form__seperator--space-2x {
+    margin: 30px 0;
+}
+
+.table-brd {
+    width: 100%;
+}
+
+.table-brd tr {
+    border-bottom: 1px dashed #e8e8e8;
+    font-size: 14px;
+}
+
+/* table tbody tr,
+table tbody tr td span {
+    color: #111 !important;
+} */
+.table-brd td {
+    /* text-transform: capitalize; */
+}
+
+.vol-labels {
+    font-weight: 450;
+    font-size: 14px;
+}
+
+.personal_info_form_button {
+    text-align: center;
+    padding: 18px 0px;
+}
+
+.btn.btn-icon {
+    cursor: pointer;
+}
+
+.dotted_border_top {
+    border-top: 1px dashed #e8e8e8;
+
+}
+
+.header_bottom_border {
+    border-bottom: 1px solid #eaecf2 !important;
+
+}
+
+.footer_top_border {
+    border-top: 1px solid #eaecf2 !important;
+
+}
+
+.divider_border {
+    border-bottom: 1px solid #e8e8e8 !important;
+}
+
+
+.cancel_btn {
+    width: 120px;
+    height: 39px;
+}
+
+.edit_btn_persondet:hover,
+.edit_btn_addressdet:hover {
+    color: white;
+    background: purple;
+}
+
+.edit_btn_persondet,
+.edit_btn_addressdet {
+    border: 0;
+    background: transparent;
+    color: #a7abc3;
+}
+
+.person_info_title {
+    font-size: 1.3rem;
+}
+
+.password_body {
+    padding: 6.2rem 13.2rem;
+}
+
+.m-form .m-form__group {
+    margin-bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+form--fit .m-form__group {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.password_label {
+    font-weight: 450 !important;
+    font-size: 14px !important;
+}
+
+.required {
+    color: #f4516c !important;
+}
+
+.edit_perosnal_detail {
+    cursor: pointer;
+}
+
+/* media query */
+@media only screen and (min-width: 1200px) {
+    .row.m-row--column-separator-xl {
+        border-bottom: 0;
+        border-right: 1px solid #ebedf2;
+    }
+
+}
+
+.m-portlet {
+    margin-bottom: 2.2rem;
+}
+
+.dotted-brd {
+    border-bottom: 1px dashed #e8e8e8 !important;
+}
+
+.d-flex {
+    /* display: -webkit-box !important; */
+    /* display: -ms-flexbox !important; */
+    display: flex !important;
+}
+
+#profile_image {
+    padding-left: 96px;
+    margin-top: 30px;
+}

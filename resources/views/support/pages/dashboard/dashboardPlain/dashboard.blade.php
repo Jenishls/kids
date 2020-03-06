@@ -1,0 +1,22 @@
+<!-- Controllers.DashboardController -->
+{{-- {{dd(auth()->user()->profilePicture())}} --}}
+@include('support.pages.dashboard.inc.doctype')
+@include('support.pages.dashboard.inc.body')
+@include('support.pages.dashboard.inc.hmobile')
+@include('support.pages.dashboard.inc.htopbar')
+@include('support.pages.dashboard.inc.head')
+@include('support.pages.dashboard.inc.notification')
+@include('support.pages.dashboard.inc.qaction')
+@include('support.pages.dashboard.inc.gridnav')
+{{-- @include('support.pages.dashboard.inc.cart') --}}
+{{-- @include('support.pages.dashboard.inc.languagebar') --}}
+<div id="userPreview">
+    @include('support.pages.dashboard.inc.userPreview')
+</div>
+ @include('support.pages.dashboard.inc.menu') 
+
+
+@include('support.pages.dashboard.inc.content')
+
+@include('support.pages.dashboard.inc.quickpanel')
+@include('support.pages.dashboard.inc.footer')

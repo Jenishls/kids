@@ -1,0 +1,239 @@
+.details_div ul li a {
+    font-size: 1.2rem !important;
+    font-weight: 500 !important;
+}
+
+.nav-item .active {
+    color: #646c9a !important;
+    border-bottom: 1px solid #2cb2f0 !important;
+}
+
+.nav-item a:hover {
+    color: #646c9a !important;
+    border-bottom: 1px solid #2cb2f0 !important;
+}
+
+.address_info_details {
+    text-align: center;
+}
+
+.address_info_title_name {
+    padding-right: 273px !important;
+    /* display: inline-flex; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.address_info_details>.row {
+    padding: 1rem 3.1rem !important;
+    padding-bottom: 2.7rem !important;
+}
+
+.address_info_title_name,
+.membership_info_title_name {
+    margin: 0 auto;
+    text-align: left;
+    padding: 12px 25px;
+}
+
+.address_info_title_name>span,
+.membership_info_title_name>span {
+    font-size: 16px;
+    font-weight: 450;
+    padding: 12px 0;
+}
+
+#addressBox:hover {
+    border-color: #b88fc7;
+    cursor: pointer;
+}
+
+#addressBox:hover .icon_address .add_icon #addIcons {
+    color: #9f5b9b;
+}
+
+.first_address_title {
+    border-style: dashed !important;
+    height: 292px;
+    width: 320px;
+    border-width: 2px;
+    box-sizing: border-box;
+    border-color: #C7C7C7;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.a-box {
+    border-radius: 4px;
+    border: 2px #ddd solid;
+    background-color: #fff;
+}
+
+.add_icon i {
+    font-size: 50px;
+    color: #dddddd;
+}
+
+.second_address_title {
+    min-width: 320px;
+    border-width: 1px;
+    border-color: #C7C7C7;
+    display: table-cell;
+    box-shadow: 2px 5px 10px 0px rgb(215, 178, 194, 0.8);
+    background: linear-gradient(217deg, #dbdbdb, #ffffff);
+    height: 292px;
+}
+
+/* default address bg */
+.def_address {
+    background: linear-gradient(45deg, #c37bb8, #380049);
+    color: white;
+    border-top: 1px 1px 0px 1px solid #C7C7C7;
+}
+
+.first_def_title {
+    padding-left: 20px;
+    padding-top: 6px;
+    height: 40px;
+    font-size: 15px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.second_def_desc {
+    padding: 14px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 210px;
+    /* font-family: Merienda One; */
+    /* font-family: 'Poppins', sans-serif; */
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    font-size: 14px;
+    text-align: left;
+}
+
+.second_def_desc span h5 {
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 300;
+    color: #844486;
+    text-transform: capitalize;
+    margin: 5px 0;
+    font-size: 16px !important;
+}
+
+.option_span {
+    font-size: 15px;
+    /* margin-left: 20px; */
+}
+
+.add_edit_del {
+    margin-top: 35px;
+}
+
+.edit_span {
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+
+.edit_span a {
+    color: #4e84a6;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.edit_span a i,
+.del_span a i {
+    /* color: #844486; */
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.edit_span a i:hover,
+.del_span a i:hover {
+    color: #6d396e;
+}
+
+
+.del_span {
+    padding-left: 20px;
+}
+
+.del_span a {
+    color: #ba261c;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* modal */
+.addressUserRow {
+    margin-bottom: 2rem;
+}
+
+
+/* password chane */
+
+.separator {
+    border-right: 1px solid #dfdfe0;
+}
+
+.icon-btn-save {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.btn-save-label {
+    position: relative;
+    left: -12px;
+    display: inline-block;
+    padding: 6px 12px;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 3px 0 0 3px;
+}
+
+.password_change_div {
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 3px;
+    box-shadow: 1px 2px 11px -1px rgb(234, 236, 242);
+    border: 1px dashed #d5d9e6;
+}
+
+.password_body {
+    padding: 3.2rem 33.2rem !important;
+}
+
+.label-floating label {
+    font-weight: 450;
+    font-size: 14px;
+}
+
+.label-floating {
+    margin-bottom: 16px !important;
+}
+
+.personal_info_portlet_body {
+    height: 100% !important;
+    padding: 25px 0px;
+    box-shadow: none !important;
+    padding-bottom: 0 !important;
+}
+
+/* image icon profile */
+.num_email_icon>img {
+    height: 19px;
+    /* padding-right: 9px; */
+    /* width: 10px; */
+}
+
+.num_email_icon>span {
+    padding-left: 6px;
+}

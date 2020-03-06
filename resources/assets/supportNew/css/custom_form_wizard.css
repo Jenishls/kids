@@ -1,0 +1,58 @@
+.wizard-tabs.active{
+	border-bottom: 1px solid #2ca1d8!important;
+}.wizard-tabs.active > a{
+	color: #2ca1d8 !important;
+}
+.wizard-panel{
+	display: none;
+}
+.wizard-panel.active{
+	display: block;
+}
+.wizard--btn{
+	display: none;
+}
+.wizard--btn.active{
+	display: block;
+}
+
+.custom_dialog.modal-dialog{
+      max-width: 1200px!important;
+      width:100%!important;
+      margin: 1.75rem auto;
+}
+.custom_dialog.modal-dialog .modal-content {
+     min-width: 100%!important; 
+}
+@media screen and (max-width: 1199px) {
+  .custom_dialog.modal-dialog{
+    max-width: 1000px!important;
+    width: 98%!important;
+    margin: 1.75rem auto;
+  }
+}
+@media screen and (max-width: 999px) {
+  .custom_dialog.modal-dialog{
+    max-width: 900px!important;
+    width: 98%!important;
+    margin: 1.75rem auto;
+  }
+}
+@media screen and (max-width: 900px) {
+  .custom_dialog.modal-dialog{
+    max-width: 850px!important;
+    width: 98%!important;
+    margin: 1.75rem auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sm-top-padding-10{
+   	margin-top: 10px!important;
+  }
+  .sm-top-padding-10 #member_lookup_btn_container{
+  	text-align: left!important;
+  }
+  .mediaShadowInput{
+  	margin-top: 1rem!important;
+  }
+}

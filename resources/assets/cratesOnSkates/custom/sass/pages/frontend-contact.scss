@@ -1,0 +1,93 @@
+/*
+* @Author: 
+ /** 
+ * DEVELOPERS 
+ * ------------------------------------------------  
+ * - SUMAN THAPA - LEAD(NEPALNME@GMAIL.COM) 
+ * ------------------------------------------------  
+ * -  BASANTA TAJPURIYA 
+ * -  RAKESH SHRESTHA 
+ * -  LEKH RAJ RAJ 
+ * ------------------------------------------------  
+ * THIS INTELLECTUAL PROPERTY IS COPYRIGHT Ⓒ 2019 
+ * SHUBHU TECH PVT LTD , NEPAL. ALL RIGHT RESERVED
+* @Date:   2019-12-18 13:10:09
+* @Last Modified by:   Lekh Raj Rai
+* @Last Modified time: 2019-12-18 15:14:07
+*/
+.section-contact{
+	&#{__title-container}{
+		padding-bottom:10px;
+		h2{
+			@media only screen and (max-width: 1230px) {
+				font-size:20px;
+			}
+		}
+	}
+	ul.address {
+		@media only screen and (max-width: 768px) {
+			display: -webkit-box;
+			display: flex;	
+		    -webkit-box-orient: vertical;	
+		    -webkit-box-direction: normal;	
+		            flex-direction: column;
+		}
+		li{
+			padding: 0px;
+		    margin-right: 20px;
+		    @media only screen and (max-width: 768px) {
+				margin-bottom:10px;
+			}
+		    span{
+		    	font-size: 20px;
+		        color: white;
+		    }
+			svg{
+				margin: 0px;
+		        margin-right: 0px;
+		        font-size: 18px;
+		        color: #ffbf00;
+			}
+		}
+	}
+
+	&#{__bx-shadow}{
+		background: #FFFFFF;
+	    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
+	    border-radius: 4px;
+	    box-shadow: 4px 4px 20px 18px rgb(86, 171, 28);
+	    -moz-box-shadow: 4px 4px 20px 18px rgb(86, 171, 28);
+	    -webkit-box-shadow: 4px 4px 20px 18px rgb(86, 171, 28);
+	    padding: 0px 0px 20px 0px;
+	    margin-bottom: 80px;
+
+	}
+    &#{__form-title}{
+		background: #f39731;
+        padding: 20px;
+        color: black;
+        p{
+        	font-size:18px;
+        	font-weight:bold;
+        	margin-bottom:0px;
+        	color:#fff;
+        	@media only screen and(max-width: 1090px){
+        		font-size:15px;
+        	}
+        }
+	}
+	&#{__contact-form}{
+		padding: 20px 20px;
+        margin-bottom: 0px;
+		
+	}
+	&#{__form-input-label}{
+		font-weight: 500;
+	}
+	&#{__main-form}{
+		@media only screen and (max-width: 995px) {
+			padding-right:0px;
+		}
+	}
+
+}

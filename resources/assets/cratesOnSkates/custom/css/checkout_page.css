@@ -1,0 +1,274 @@
+.round-tab {
+    /* height: 50px;
+    width: 63px; */
+    /* border: 1px solid black; */
+    /* border-radius: 60%;
+    padding: 16px 40px;
+    font-size: 38px;*/
+    border-radius: 60%;
+    padding: 22px 43px;
+    font-size: 38px;
+    background: #fff;
+
+}
+
+.margin_left_200 {
+    margin-left: 200px;
+
+}
+
+.step-wizard {
+    text-align: center;
+}
+
+.step-wizard ul li h4 {
+    margin-top: 23px;
+}
+
+.wizard_tabs {
+    /* padding-top: 35px; */
+    padding-bottom: 45px;
+
+}
+
+.checkout_additional_product_container {
+    /* margin-top: 50px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.checkout_content_head {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.col-width {
+    /* width: 37.33%; */
+}
+
+.add_p_col .panel.top {
+    background: white;
+    width: 100%;
+    border: 0;
+    padding: 5px 10px 0 10px;
+}
+
+div.top_row_product_data {
+    float: right;
+    width: 135px;
+    padding-top: 45px;
+}
+
+.top_row_product_data p {
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.checkout-review-top .checkout-additional-product-container input.qty-field {
+    /* background: url(../images/input_quantity_background.png) no-repeat; */
+    left: 1px;
+    top: -3px;
+    width: 57px;
+}
+
+.checkout_product_quantity input {
+    width: 39px;
+}
+
+.top_row_product_image_checkout {
+    width: 171px;
+    height: 230px;
+}
+
+.checkout_add_product_btn {
+    padding: 4px !important;
+}
+
+.add_p_col {
+    margin: 0px 23px;
+}
+
+.cart_qty_p {
+    margin-top: 10px;
+}
+
+.border_bottom_white {
+    border-bottom: 2px dashed;
+    border-color: white;
+}
+
+.checkout_first_container {
+    padding: 65px 0;
+}
+
+.additional_boxes_wheels {
+    /* padding: 65px 0px; */
+}
+
+/* .checkout_ul ul li .active a {
+    background: white;
+} */
+
+.checkout_ul .nav-link.active .round_tab,
+.checkout_ul .nav-item.show .nav-link {
+    background-color: white !important;
+
+}
+
+.checkout_ul .nav-link.active {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.crates_container.nav-tabs {
+    border: none !important;
+}
+
+.checkout_ul {
+    justify-content: center;
+}
+
+.checkout_ul li {
+    text-align: center;
+}
+
+#myTabContent {
+    text-align: center;
+}
+
+.prev_next_checkout_btn {
+    text-align: center;
+}
+
+.width_970 {
+    width: 970px;
+}
+
+
+.tabs-wrap {
+    margin-top: 40px;
+}
+
+.tab-content .tab-pane {
+    padding: 20px 0;
+}
+
+.checkout_total_content {
+    padding: 50px 0px;
+}
+
+.checkout_total {
+    justify-content: flex-end;
+}
+
+.checkout_total p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.checkout_total p .cart_subtotal {
+    padding-left: 10px;
+}
+
+.veify_infm_content {
+    background: white;
+}
+
+.verify_infm_first_content,
+.verify_infm_second_content,
+.verify_infm_third_content,
+.verify_infm_pickup_content,
+.verify_infm_total_content {
+    padding: 15px 10px 8px 15px;
+
+}
+
+.package_row_padding {
+    padding: 0px 28px;
+}
+
+.field_change_div {
+    padding-top: 30px;
+}
+
+.field_change_btn,
+.coupon_apply_btn,
+.gift_apply_btn,
+.checkout_delivery_info_change_btn,
+.checkout_personal_info_change_btn,
+.checkout_billing_info_change_btn,
+.checkout_card_info_change_btn {
+    padding: 5px !important;
+
+
+}
+
+.field_update_btn {
+    padding: 2px !important;
+    font-size: 12px;
+}
+
+.coupon_gift_row {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.hidden_update_package {
+    display: none;
+}
+
+.coupon_accordion_row {
+    padding: 0px 11px;
+}
+
+.coupon_accordion_row input {
+    padding: 6px;
+    margin-bottom: 5px;
+
+}
+
+.delivery_info_row_padding,
+.persoanl_info_row_padding {
+    padding: 30px;
+}
+
+.verify_personal_info_third_tab,
+.verify_billing_info_third_tab,
+.verify_cardinfo_third_tab {
+    padding-left: 30px;
+}
+
+
+.checkout-label {
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    color: #000000;
+    font-size: 16px;
+    text-transform: capitalize !important;
+}
+
+.checkout--step2-form--heading h3 {
+    border-bottom: 1.5px solid #ffc107;
+    padding-bottom: 1.5px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    display: inline-block;
+    font-family: proxima-semibold;
+}
+
+.checkout--step2-form--heading span {
+    color: #ffd451;
+    font-family: rock-well;
+}
+
+.checkout-input-border {
+    border: 0 !important;
+    border-radius: 2px !important;
+}
+
+.edit-checkout-2 {
+    display: none;
+}

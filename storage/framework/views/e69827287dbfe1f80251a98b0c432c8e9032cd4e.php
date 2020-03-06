@@ -1,0 +1,2 @@
+<?php echo $__env->make('supportNew.pages.dashboard.inc.userbar', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php /**PATH D:\support\resources\views/supportNew/pages/dashboard/inc/userPreview.blade.php ENDPATH**/ ?>

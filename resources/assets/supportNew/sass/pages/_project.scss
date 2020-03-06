@@ -1,0 +1,21 @@
+.project-detail{
+    .header-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .header-logo{
+            display: flex;
+            width: 65%;
+
+            .project-title{
+                font-size: 1.3rem;
+                color: #48465b;
+                font-weight: 600;
+                margin: .8rem 0 .7rem 0;
+            }
+        }
+        .header-info{
+            width: 35%;
+        }
+    }
+}

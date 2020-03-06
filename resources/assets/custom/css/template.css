@@ -1,0 +1,103 @@
+#kt_body {
+    min-height: 500px;
+}
+
+.template_header {
+    height: 34px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #22b9ff;
+}
+
+.template_container {
+    width: 100%;
+    padding: 20px 40px 20px 40px;
+
+}
+
+.ui-sortable>.col-lg-3>.kt-portlet {
+    box-shadow: 2px 2px 3px 0px rgba(82, 63, 105, 0.16);
+    border-left: 1px solid #ececec;
+}
+
+.kt-portlet__head-group>a>i {
+    color: #22b9ff !important;
+}
+
+.template_div {
+    cursor: pointer;
+}
+
+.template_div>.kt-portlet>.kt-portlet__body:hover :hover {
+    text-decoration: none;
+}
+
+.template_div>.kt-portlet>.kt-portlet__body:hover {
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 2px solid #fbce44;
+    border-radius: 4px;
+}
+
+.template_div>.kt-portlet>.kt-portlet__body:hover>.img_overlay {
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.template_div:hover>.kt-portlet>.kt-portlet__body {
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.template_div>.kt-portlet>.kt-portlet__body {
+    overflow: hidden;
+    position: relative;
+}
+
+.template_div>.kt-portlet>.kt-portlet__body>.img_overlay {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.15);
+    -webkit-transition: all 0.3s;
+    /* height: 303px; */
+    width: 100%;
+    /* transition: all 0.3s; */
+    opacity: 0;
+}
+
+.template_div>.kt-portlet>.kt-portlet__body:hover>.img_overlay {
+    position: absolute;
+    /* top: 60px; */
+    bottom: 0;
+    /* left: 14px; */
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.15);
+    /* -webkit-transition: all 0.3s;
+    height: 303px;
+    width: 100%; */
+    /* transition: all 0.3s; */
+    opacity: 1;
+}

@@ -1,0 +1,76 @@
+.slick_right_image img {
+    height: 100%;
+    width: 100%;
+}
+
+/* .p_r_nav {
+    height: 89px;
+}
+
+.p_r_nav img {
+    height: 100%;
+    width: 70%;
+}
+
+.p_r_nav_row {
+    height: 270px;
+} */
+/*.product_images {
+    background: #fff;
+    border-radius: 5px;
+    margin-top: -25px;
+    padding-bottom: 12px;
+    margin: -3% 2% 0;
+    -moz-box-shadow: -14px 12px 8px 2px rgb(86, 171, 28);
+    -webkit-box-shadow: -14px 12px 8px 2px rgb(86, 171, 28);
+    box-shadow: -14px 12px 8px 2px rgb(86, 171, 28);
+    margin-bottom: 38px;
+}*/
+
+.product_main_image_panel .slick-list {
+    height: 310px;
+}
+
+.product_main_image_panel img {
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.product_sliding_thumb_image {
+    cursor: pointer;
+    display: inline-block;
+    height: 53px;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 0 !important;
+}
+
+.product_sliding_thumb_image .slick-list {
+    height: 100%;
+}
+
+.product_main_image_panel .slick-list .slick-track .slick-slide {
+    min-height: 29% !important;
+    max-height: 21% !important;
+}
+
+.product_sliding_thumb_image .slick-dots {
+    display: none !important;
+}
+
+.product_sliding_thumb_image img {
+    height: 72px;
+}
+
+.product_sliding_thumb_image .slick-list .slick-track .slick-slide {
+    width: 124px !important;
+}
+
+.mb_20 {
+    margin-bottom: 25px;
+}
+
+.product-right h2{
+    color: #229c79;
+}

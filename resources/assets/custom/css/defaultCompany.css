@@ -1,0 +1,314 @@
+#defaultCompanyTable{
+    padding: 20px !important;
+    background: white !important;
+    border-radius: 4px;
+    margin-bottom: 21px;
+
+}
+
+.inputfile+label {
+    padding: 0 10px;
+    font-size: 13px;
+    line-height: 28px;
+    border: 1px solid transparent;
+    border-color: #dedede;
+    border-radius: 2px;
+    display: inline-block;
+    cursor: pointer;
+    width: 541px;
+    height: 36px;
+    border-radius: 4px;
+    background: white;
+    padding: 3px 14px;
+
+}
+
+/* Start Action */
+#defaultCompanyTable a i {
+    font-size: 1.3rem;
+    color: #a0a2ae;
+}
+
+#defaultCompanyTable table tbody tr td a:hover>i {
+    cursor: pointer !important;
+    color: white !important;
+} 
+/* End Action */
+
+
+
+.tableTopBar{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:17px;
+}
+
+.tableTopBarContent{
+    display:flex;
+    justify-content:space-between;
+}
+/* add option button */
+#add_option{
+    background: #bd3c92;
+    color: white;
+    outline: none !important;
+    border: none !important;
+}
+
+#add_option:hover{
+    background: #b50179
+}
+
+#add_option i{
+    color:#fff !important;
+}
+/* end add option button */
+
+
+
+/* pagination */
+
+#defaultCompanyTable .kt-datatable__pager{
+    padding-left:0px !important;
+}
+/* end pagination */
+
+
+/* left company info */
+
+
+.companyLogoCircle{
+    padding:5px 0px 0px 5px !important;
+}
+
+.logoUpload{
+    cursor: pointer;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: absolute;
+    /* right: -7px !important; */
+    /* top: -1px !important; */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+}
+.logoHolder{
+     /* border-radius:0% !important; */
+     width:100px !important;
+     height: 100px !important;
+     /* margin-left: 1rem; */
+}
+.logoUpload i {
+    color: #716aca;
+    font-size: 0.9rem;
+}
+
+.logoUpload input {
+    width: 0 !important;
+    height: 0 !important;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.defaultCompanyMainContent{
+    padding: 20px;  
+}
+
+.defaultCompanyLogo img{
+    max-width: 130px !important;
+    height: 80px !important;
+    background: white;
+    border-radius: 4px;
+}
+
+.defaultCompanyHead{
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+    flex-wrap: wrap;
+    background: #f5f7ff;
+    padding: 5px;
+    border-radius: 4px;
+    
+}
+
+.defaultCompanyWidgetLabel{
+    display: flex;
+}
+
+.defaultCompanyTitle{
+    font-size: 1.5rem;
+    color: #48465b;
+    font-weight: 600;
+}
+
+.defaultCompanyInfo{
+    padding: 0.25rem 0 0 2rem;
+    margin-top:25px !important;
+}
+
+.defaultCompanyHeadDesc{
+    padding-top: 0.4rem;
+    color: #595d6e;
+    font-weight: 500;
+    display: block;
+}
+
+.defaultCompanyDesc{
+    margin-top:1rem;
+    padding: 1.4rem 0rem 1.4rem;
+    color: #7b7b7b;
+    font-weight: 500;
+    display: block;
+    /* background: #e8f9f8; */
+    border-radius:4px;
+}
+
+.descText{
+    /* background: #dedede; */
+    padding-top: 0.5rem;
+    color: #7b7b7b;
+    font-weight: 500;
+    background: #f5f7ff;
+    padding: 8px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.defaultCompanyWidgetContent{
+    margin-top:1rem;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.defaultCompanyWidgetDetails{
+    padding-top: 1rem;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    text-align:center;
+}
+
+.defaultCompanySubtitle{
+    color: #595d6e;
+    font-weight: 600;
+    padding-bottom: 1.1rem;
+}
+
+.defaultCompanySubtitleValue{
+    color: #48465b;
+    font-weight: 600;
+    font-size: 1.2rem;
+    /* padding: 5px 11px; */
+}
+
+.defaultCompanyStats{
+    display:flex;
+    justify-content: space-between;
+}
+
+.defaultCompanyItem{
+    text-align: center;
+}
+
+.defaultCompanyItemTitle{
+    color: #595d6e;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    display: block;
+}
+
+.defaultCompanyAddTitle{
+    color: #fff;
+    font-weight: 600;
+    display: block;
+    background:#93a2dd ;
+    padding: 5px 10px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.defaultCompanyAddress{
+    margin-top:1rem;
+    display : flex;
+    border-radius: 4px;
+    justify-content: space-between;
+
+}
+
+.defaultComapnyAddressSection{
+    width: 19.5rem;
+}
+
+.defaultCompanyAddress address{
+    color: #7b7b7b;
+    font-weight: 500;
+    display: block;
+}
+
+/* end company info */
+
+
+/* businness Hours */
+
+
+.businessHourContent{
+    margin-top:10px;
+    height: 357px;
+}
+.hourStatus button{
+    width:260.75px !important;
+}
+
+.hourStatus .dropdown-menu.show{
+    width:260.75px !important;
+    left:0px !important;
+}
+
+#addHoursBtn{
+    background: #bd3c92;
+    color: white;
+    outline: none !important;
+    border: none !important;
+    /* height: 32px; */
+    margin-bottom:15px;
+}
+
+#addHoursBtn:hover{
+    background: #b50179;
+}
+
+#addHoursBtn i{
+    font-size: 1.1rem;
+    padding: 2px;
+    margin-bottom: 2px;
+}
+
+
+.addHourBtn{
+    text-align: right;
+}
+
+.businessHoursHead{
+    display:flex;
+    justify-content: space-between;
+}
+.businessHoursHead h5{
+    margin-top:5px;
+}
+
+#businessHoursTable a i {
+    font-size: 1.3rem;
+    color: #a0a2ae;
+}
+
+#businessHoursTable table tbody tr td a:hover>i {
+    cursor: pointer !important;
+    color: white !important;
+}

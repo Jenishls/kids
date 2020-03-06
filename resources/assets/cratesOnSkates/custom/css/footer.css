@@ -1,0 +1,39 @@
+.footer-page-col,
+.footer-more-col,
+.footer-stalk-us-col,
+.footer-contact-col {
+    border-left: 2px solid #4a4a4a;
+    padding-left: 18px;
+}
+
+.footer-theme .sub-title li a span.facebook,
+.footer-theme .sub-title li a span.insta {
+    padding-right: 12px !important;
+}
+
+.footer-theme .sub-title li a span {
+    padding: 0 10px 0px 0px;
+}
+
+.footer-theme .sub-title li a:before {
+    background-color: #76c043 !important;
+}
+
+.footer-theme .sub-title li:hover a {
+    color: #76c043 !important;
+}
+
+.footer-theme .sub-title h4 {
+    color: #76c043 !important;
+    margin-bottom: 7px !important;
+    font-size: 17px !important;
+}
+
+.footer-contant .footer-logo {
+    text-align: center !important;
+}
+
+.footer-theme .sub-title .contact-list li {
+    padding-left: 0 !important;
+    color:white;
+}

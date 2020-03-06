@@ -1,0 +1,1 @@
+<body style="background-image: url(media/demos/demo8/bg-1.jpg)" class="kt-page--fluid kt-quick-panel--right kt-demo-panel--right kt-offcanvas-panel--right kt-header--fixed kt-header-mobile--fixed kt-subheader--enabled kt-subheader--transparent kt-page--loading">

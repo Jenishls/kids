@@ -1,0 +1,45 @@
+#cms_template_view_container {
+    height: 79px;
+    width: 100%;
+}
+
+.template_view_tt {
+    padding: 13px 20px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    background: #8138a4;
+}
+
+.view_sections_element {
+    padding-top: 1.15rem;
+    padding-bottom: 0.25rem;
+    cursor: pointer;
+}
+
+.view_sections_element>a>span {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    font-size: 1rem;
+    color: #6c7293;
+    font-weight: 400;
+}
+
+.view_sections_element>a {
+    padding-top: 0px !important;
+    padding-left: 10px !important;
+    width: 227px;
+}
+
+/* active class */
+.view_menu_active {
+    /* background: #fbce444a; */
+    background: rgba(113, 106, 202, 0.14);
+    /* color: #e80062; */
+    border-left: 3px solid #716aca;
+}
+
+.view_menu_active>a>span {
+    color: #5b4a60 !important;
+}

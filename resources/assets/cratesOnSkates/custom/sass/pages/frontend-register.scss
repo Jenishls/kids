@@ -1,0 +1,81 @@
+/*
+* @Author: 
+ /** 
+ * DEVELOPERS 
+ * ------------------------------------------------  
+ * - SUMAN THAPA - LEAD(NEPALNME@GMAIL.COM) 
+ * ------------------------------------------------  
+ * -  BASANTA TAJPURIYA 
+ * -  RAKESH SHRESTHA 
+ * -  LEKH RAJ RAJ 
+ * ------------------------------------------------  
+ * THIS INTELLECTUAL PROPERTY IS COPYRIGHT Ⓒ 2019 
+ * SHUBHU TECH PVT LTD , NEPAL. ALL RIGHT RESERVED
+* @Date:   2019-12-24 19:02:56
+* @Last Modified by:   Lekh Raj Rai
+* @Last Modified time: 2020-01-22 16:52:44
+*/
+.sec-reg{
+    &#{__form_wrapper}{
+        -webkit-box-shadow: -14px 12px 8px 2px #56ab1c;
+        box-shadow: -14px 12px 8px 2px #56ab1c;
+        background:#fff;
+        padding: 0;
+        @media only screen and (max-width:  991px) {
+           margin:0 50px;
+        }
+        @media only screen and (max-width:  400px) {
+           margin:0 10px;
+        }
+
+        .form-title{
+            margin: 0;
+            text-align: center;
+            padding: 18px;
+            background: #f8aa45;
+            color: #fff;
+            text-transform: uppercase;
+            font-family: "Poppins";
+            letter-spacing: 0 !important;
+            font-weight: 600;
+        }
+    }
+    &#{__btn-submit}{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        padding-top: 10px;
+    }
+    &#{__text-login}{
+        font-family: Poppins;
+        color: #000;
+        margin: 20px 0 0 0;
+    }
+    &#{__login-link}{
+        color: #ffc439;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    &#{__login-link}:hover{
+        opacity: 0.9;
+        color: #ffc439;
+    }
+    .form-row > .col, .form-row > [class*="col-"] {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .error-msg{
+        font-size: 13px;
+        color: #b12704;
+    }
+}

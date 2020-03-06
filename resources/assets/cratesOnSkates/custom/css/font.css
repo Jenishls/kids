@@ -1,0 +1,55 @@
+.bold_font {
+    font-weight: bold;
+
+}
+
+.font_color_green {
+    color: #c8a670;
+}
+
+.text_align_left {
+    text-align: left;
+}
+
+.text_align_right {
+    text-align: right;
+}
+
+
+/* padding */
+.padding_top_40 {
+    padding-top: 40px;
+}
+
+.padding_bottom_40 {
+    padding-bottom: 40px;
+
+}
+
+.padding_top_15 {
+    padding-top: 15px;
+}
+
+.padding_top_10 {
+    padding-top: 10px;
+}
+
+/* display */
+.display_flex {
+    display: flex;
+}
+
+.justify_space_between {
+    justify-content: space-between;
+}
+
+.flex_end {
+    justify-content: flex-end;
+}
+
+
+/* border */
+.border_bottom_green {
+    border: 1px dashed;
+    border-color: rgb(9, 82, 9);
+}
